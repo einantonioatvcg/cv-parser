@@ -1,0 +1,17 @@
+# Barrera contra CVs reales: solo los fixtures inventados pueden entrar al repo.
+*.pdf
+*.doc
+*.docx
+*.rtf
+*.expected.json
+!tests/fixtures/**
+
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# Claves locales: nunca al repo
+.env
+.env.*
+CLAUDE.local.md

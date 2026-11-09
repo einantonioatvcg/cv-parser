@@ -1,0 +1,9 @@
+{"contact": {"name": "María Fernanda López Hernández", "email": "maria.lopez@ejemplo.invalid", "phone": "3312345678"},
+ "headline": "Asistente Administrativa",
+ "summary": "Asistente administrativa con 6 años de experiencia en atención a clientes, facturación y manejo de agenda.",
+ "education": [
+  {"level": "university", "level_text": "Licenciatura en Administración de Empresas", "is_technical": false, "area_text": "Administración de Empresas", "institution": "Universidad de Guadalajara", "city": "Guadalajara", "country_code": "MX", "start": {"year": 2013, "month": 8}, "end": {"year": 2017, "month": 6}, "is_current": false},
+  {"level": "high_school", "level_text": "Bachillerato General", "is_technical": false, "area_text": null, "institution": "Preparatoria 7", "city": "Guadalajara", "country_code": "MX", "start": {"year": 2010, "month": null}, "end": {"year": 2013, "month": null}, "is_current": false}],
+ "experience": [
+  {"position": "Asistente Administrativa", "company": "Grupo Comercial del Bajío S.A. de C.V.", "city": "Guadalajara", "country_code": "MX", "start": {"year": 2021, "month": 3}, "end": null, "is_current": true, "description": "Gestión de agenda y viajes de la dirección general\nFacturación electrónica y conciliación bancaria"},
+  {"position": "Recepcionista", "company": "Clínica San Rafael", "city": "Zapopan", "country_code": "MX", "start": {"year": 2018, "month": 1}, "end": {"year": 2021, "month": 2}, "is_current": false, "description": "Atención a pacientes y control de citas"}]}

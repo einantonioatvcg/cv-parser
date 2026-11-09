@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cv-parser"
+version = "0.1.0"
+description = "Microservicio local que convierte CVs (PDF, docx, doc) en JSON estructurado"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "python-multipart>=0.0.9",
+    "pdfplumber>=0.11",
+    "python-docx>=1.1",
+    "anthropic>=0.60",
+    "openai>=1.60",
+    "google-genai>=1.20",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "httpx>=0.27", "fpdf2>=2.7", "pillow>=10", "cryptography>=42"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
